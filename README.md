@@ -1,77 +1,61 @@
-# Welcome to your Lovable project
+# Soumyadip Pal Portfolio
 
-## Project info
+Personal portfolio website for Soumyadip Pal, showcasing data science, AI, automation, prompt engineering, vibe coding, projects, skills, certificates, and resume.
 
-**URL**: https://lovable.dev/projects/6fd12b81-631e-49d3-83b3-86e8b3fab3ae
+## Tech stack
 
-## How can I edit this code?
+- React + TypeScript
+- Vite
+- Tailwind CSS + shadcn/ui
+- Framer Motion
 
-There are several ways of editing your application.
+## Run locally
 
-**Use Lovable**
+Requirements: Node.js 18+ and npm.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6fd12b81-631e-49d3-83b3-86e8b3fab3ae) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/soumyadippal35/soumyadip-pal-portfolio.git
+cd soumyadip-pal-portfolio
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open the local URL shown in the terminal (normally `http://localhost:8080`).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Useful commands
 
-**Use GitHub Codespaces**
+```bash
+# Create a production build
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Preview the production build locally
+npm run preview
 
-## What technologies are used for this project?
+# Check code quality
+npm run lint
+```
 
-This project is built with:
+## Portfolio assets
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Profile and certificate images: `public/assets/images/`
+- Resume downloads: `public/assets/resume/`
+- Home-page video: `public/assets/video/hero-coding.mp4`
+- Skill icons: `public/assets/tools/`
 
-## How can I deploy this project?
+## Deploy on Vercel
 
-Simply open [Lovable](https://lovable.dev/projects/6fd12b81-631e-49d3-83b3-86e8b3fab3ae) and click on Share -> Publish.
+1. Push the latest changes to the `main` branch of this GitHub repository.
+2. Go to [Vercel](https://vercel.com/new) and sign in with GitHub.
+3. Import `soumyadippal35/soumyadip-pal-portfolio`.
+4. Use these build settings:
+   - Framework Preset: `Vite`
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+   - Install Command: `npm install`
+5. Click **Deploy**.
 
-## Can I connect a custom domain to my Lovable project?
+Vercel will automatically create a new deployment after every future push to `main`.
 
-Yes, you can!
+## License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-
-# ./tailwind-plus folder:
-
-The tailwind-plus folder contains tailwind components and themes to be used as inspiration for the project. DO NOT REMOVE THE FOLDER UNLESS SPECIFICALLY TOLD TO DO SO
+This project is for Soumyadip Pal's personal portfolio use.
