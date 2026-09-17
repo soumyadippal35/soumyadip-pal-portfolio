@@ -23,7 +23,7 @@ As a quick learner and collaborative teammate, I bring curiosity, ownership and 
   phone: '+91 8759324551',
   availability: 'Open to internships and entry-level opportunities',
   socialLinks: {
-    linkedin: 'https://www.linkedin.com/in/soumyadip-pal/',
+    linkedin: 'https://www.linkedin.com/in/soumyadip-pal-94987635a/',
     github: 'https://github.com/soumyadippal35'
   },
   // The component falls back gracefully until the supplied portrait is placed at this path.
